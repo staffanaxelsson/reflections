@@ -12,6 +12,7 @@ Q: How can you use the staging area to make sure you have one commit per logical
 A: Run a git diff to check that the current changes are within one logical change.
 
 Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: When making an overall design change to a function or to the master code, but you are not sure if it is going to work.
 
 Q: How do the diagrams help you visualize the branch structure?
 
