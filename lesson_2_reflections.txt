@@ -5,6 +5,8 @@ Q: What happens when you initialize a repository? Why do you need to do it?
 A: Git starts tracking the content in the directory. To create a "mounting point" for git to monitor.
 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: It's a landing area, a temporary place in between the working directory and the repository.
+It offers a place to add/modify/remove files before finally deciding to make a commit.
 
 Q: How can you use the staging area to make sure you have one commit per logical change?
 
