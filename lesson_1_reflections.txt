@@ -1,0 +1,22 @@
+Reflections on lesson 1:
+========================
+Version control will be very useful for controlling different versions of code and to compare files to each other.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A: a) easier to restore versions where valid data could have disappeared. b) you can use historical data to learn from mistakes.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+A: You have control of the size and frequency of commits.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A: To allow for grouping logical changes.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+A: git log will shows which commits have been done. Then you can run a git diff to view differences between commits.
+
+Q: How might using version control make you more confident to make changes that could break something?
+A: You don't have to worry about making fatal changes that can't be reversed.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+A: To store and version control all my sh and python scripts
+
