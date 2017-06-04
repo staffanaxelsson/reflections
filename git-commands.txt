@@ -1,8 +1,16 @@
 Git commands:
 =============
 
-git diff             - compare working dir with staging area.
+git diff                        - compare working dir with staging area.
 
-git diff --staged    - compare staging area with repository
+git diff --staged               - compare staging area with repository
 
-git reset --hard     - remove all changes in the working directory and staging area
+git reset --hard                - remove all changes in the working directory and staging area
+
+Branches:
+
+git branch                      - status
+git branch easy-mode            - create branch named easy-mode
+git checkout easy-mode          - switch to branch = easy-mode
+
+git log --graph --oneline master coins     - compare changes to master and "coins" branches.

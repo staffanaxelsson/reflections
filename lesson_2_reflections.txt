@@ -15,6 +15,7 @@ Q: What are some situations when branches would be helpful in keeping your histo
 A: When making an overall design change to a function or to the master code, but you are not sure if it is going to work.
 
 Q: How do the diagrams help you visualize the branch structure?
+A: It shows how commits are related and if any commits are unreachable.
 
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
