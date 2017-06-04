@@ -1,0 +1,8 @@
+Git commands:
+=============
+
+git diff             - compare working dir with staging area.
+
+git diff --staged    - compare staging area with repository
+
+git reset --hard     - remove all changes in the working directory and staging area
