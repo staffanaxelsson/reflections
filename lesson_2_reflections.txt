@@ -21,3 +21,4 @@ Q: What is the result of merging two branches together? Why do we represent it i
 A: A merged version, taking their common parents into account. It represents as two branches joining.
 
 Q: What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+A: pro is that it is faster, con is control of how it merges.

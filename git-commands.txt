@@ -25,3 +25,13 @@ git merge master coins          - merge master and "coins" branches
 git show                        - show changes introduced in a commit, compared to its parent
 
 git branch -d coins             - delete branch "coins" after merge
+
+Example, To merge updates from master into easy-mode:
+-----------------------------------------------------
+git checkout easy-mode
+git merge master easy-mode      -> Merge conflict in game.js (same code line is changed)
+//fix conflict, look for markers.
+//git status now shows "both modified"
+git add game.js
+//git status shows "all conflicts are fixed but you are still merging."
+git commit
