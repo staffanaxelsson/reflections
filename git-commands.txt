@@ -14,3 +14,14 @@ git branch easy-mode            - create branch named easy-mode
 git checkout easy-mode          - switch to branch = easy-mode
 
 git log --graph --oneline master coins     - compare changes to master and "coins" branches.
+
+git checkout -b new_branch      - create new branch and switch to it.
+//the same as:
+git branch new_branch
+git checkout new_branch
+
+git merge master coins          - merge master and "coins" branches
+
+git show                        - show changes introduced in a commit, compared to its parent
+
+git branch -d coins             - delete branch "coins" after merge

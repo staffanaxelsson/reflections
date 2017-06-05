@@ -18,5 +18,6 @@ Q: How do the diagrams help you visualize the branch structure?
 A: It shows how commits are related and if any commits are unreachable.
 
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: A merged version, taking their common parents into account. It represents as two branches joining.
 
 Q: What are the pros and cons of Git's automatic merging vs. always doing merges manually?
