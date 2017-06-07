@@ -1,0 +1,2 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+A: When several people collaborate or if you use multiple computers to modify content.
